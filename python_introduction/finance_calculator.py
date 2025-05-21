@@ -9,6 +9,5 @@ monthly_savings = income - expenses
 annual_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 #print output to display result
-# Display the results
 print(f"Your monthly savings are ${monthly_savings:.2f}.")
 print(f"Projected savings after one year, with interest, is: ${annual_savings:.2f}.")
